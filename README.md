@@ -1,5 +1,3 @@
-# EXAMEN
-
 ## Archivos del examen:
 
 ChangeString.php
