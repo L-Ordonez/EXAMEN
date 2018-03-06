@@ -27,10 +27,7 @@ class ClearPar {
 
 $ClearPar = new ClearPar;
 
-echo $ClearPar->build('()())()');
-echo '<br>';
-echo $ClearPar->build('()(()');
-echo '<br>';
-echo $ClearPar->build(')(');
-echo '<br>';
+echo $ClearPar->build('()())()').'<br>';
+echo $ClearPar->build('()(()').'<br>';
+echo $ClearPar->build(')(').'<br>';
 echo $ClearPar->build('((()');
