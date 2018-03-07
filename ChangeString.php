@@ -37,8 +37,6 @@ class ChangeString {
 
 $ChangeString = new ChangeString;
 
-echo $ChangeString->build('123 abcd*3');
-echo '<br>';
-echo $ChangeString->build('**Casa 52');
-echo '<br>';
+echo $ChangeString->build('123 abcd*3').'<br>';
+echo $ChangeString->build('**Casa 52').'<br>';
 echo $ChangeString->build('**Casa 52Z');
